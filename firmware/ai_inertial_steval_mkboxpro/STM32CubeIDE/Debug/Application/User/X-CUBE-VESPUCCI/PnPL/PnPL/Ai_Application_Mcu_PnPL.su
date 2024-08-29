@@ -1,0 +1,8 @@
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Ai_Application_Mcu_PnPL.c:70:19:Ai_Application_Mcu_PnPLAlloc	16	static
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Ai_Application_Mcu_PnPL.c:80:9:Ai_Application_Mcu_PnPLInit	24	static
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Ai_Application_Mcu_PnPL.c:91:7:Ai_Application_Mcu_PnPL_vtblGetKey	16	static
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Ai_Application_Mcu_PnPL.c:96:9:Ai_Application_Mcu_PnPL_vtblGetNCommands	16	static
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Ai_Application_Mcu_PnPL.c:101:7:Ai_Application_Mcu_PnPL_vtblGetCommandKey	16	static
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Ai_Application_Mcu_PnPL.c:115:9:Ai_Application_Mcu_PnPL_vtblGetStatus	40	static
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Ai_Application_Mcu_PnPL.c:145:9:Ai_Application_Mcu_PnPL_vtblSetProperty	16	static
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Ai_Application_Mcu_PnPL.c:150:9:Ai_Application_Mcu_PnPL_vtblExecuteFunction	32	static

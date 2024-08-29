@@ -1,0 +1,2 @@
+../../X-CUBE-VESPUCCI/PnPL/Core/Inc/IController_vtbl.h:58:16:IController_switch_bank	16	static
+../../X-CUBE-VESPUCCI/PnPL/Core/Inc/IController_vtbl.h:62:16:IController_set_dfu_mode	16	static

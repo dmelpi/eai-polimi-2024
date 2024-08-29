@@ -1,0 +1,8 @@
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Firmware_Info_PnPL.c:67:19:Firmware_Info_PnPLAlloc	2
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Firmware_Info_PnPL.c:77:9:Firmware_Info_PnPLInit	1
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Firmware_Info_PnPL.c:86:7:Firmware_Info_PnPL_vtblGetKey	1
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Firmware_Info_PnPL.c:91:9:Firmware_Info_PnPL_vtblGetNCommands	1
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Firmware_Info_PnPL.c:96:7:Firmware_Info_PnPL_vtblGetCommandKey	1
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Firmware_Info_PnPL.c:101:9:Firmware_Info_PnPL_vtblGetStatus	2
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Firmware_Info_PnPL.c:143:9:Firmware_Info_PnPL_vtblSetProperty	1
+C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Firmware_Info_PnPL.c:148:9:Firmware_Info_PnPL_vtblExecuteFunction	1
