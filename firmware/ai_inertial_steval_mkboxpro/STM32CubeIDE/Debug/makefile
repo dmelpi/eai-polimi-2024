@@ -80,8 +80,8 @@ all: main-build
 main-build: ai_inertial_steval_mkboxpro.elf secondary-outputs
 
 # Tool invocations
-ai_inertial_steval_mkboxpro.elf ai_inertial_steval_mkboxpro.map: $(OBJS) $(USER_OBJS) C:\Users\MEMS\OneDrive\polimi\2024\ai_inertial_steval_mkboxpro\STM32CubeIDE\STM32U585AIIXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ai_inertial_steval_mkboxpro.elf" @"objects.list" $(USER_OBJS) -Wl,--start-group $(LIBS) -Wl,--end-group -mcpu=cortex-m33 -T"C:\Users\MEMS\OneDrive\polimi\2024\ai_inertial_steval_mkboxpro\STM32CubeIDE\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ai_inertial_steval_mkboxpro.map" -Wl,--gc-sections -static -L../../Middlewares/ST/DSP/Lib/GCC -L../../Middlewares/ST/AI/Lib --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+ai_inertial_steval_mkboxpro.elf ai_inertial_steval_mkboxpro.map: $(OBJS) $(USER_OBJS) C:\workspace\eai-polimi-2024\firmware\ai_inertial_steval_mkboxpro\STM32CubeIDE\STM32U585AIIXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "ai_inertial_steval_mkboxpro.elf" @"objects.list" $(USER_OBJS) -Wl,--start-group $(LIBS) -Wl,--end-group -mcpu=cortex-m33 -T"C:\workspace\eai-polimi-2024\firmware\ai_inertial_steval_mkboxpro\STM32CubeIDE\STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ai_inertial_steval_mkboxpro.map" -Wl,--gc-sections -static -L../../Middlewares/ST/DSP/Lib/GCC -L../../Middlewares/ST/AI/Lib --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

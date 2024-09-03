@@ -1,8 +1,0 @@
-C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Controller_PnPL.c:70:19:Controller_PnPLAlloc	2
-C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Controller_PnPL.c:80:9:Controller_PnPLInit	1
-C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Controller_PnPL.c:91:7:Controller_PnPL_vtblGetKey	1
-C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Controller_PnPL.c:96:9:Controller_PnPL_vtblGetNCommands	1
-C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Controller_PnPL.c:101:7:Controller_PnPL_vtblGetCommandKey	3
-C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Controller_PnPL.c:115:9:Controller_PnPL_vtblGetStatus	2
-C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Controller_PnPL.c:142:9:Controller_PnPL_vtblSetProperty	1
-C:/Users/MEMS/OneDrive/polimi/2024/ai_inertial_steval_mkboxpro/X-CUBE-VESPUCCI/PnPL/PnPL/Src/Controller_PnPL.c:147:9:Controller_PnPL_vtblExecuteFunction	3

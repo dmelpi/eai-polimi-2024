@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package Dvendor="STMicroelectronics:13" schemaVersion="1.7.2" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+    <vendor>STMicroelectronics</vendor>
+    <name>X-CUBE-VESPUCCI::FROM_SCRATCH_GENERATED::CUBE_RULES</name>
+    <description>X-CUBE-VESPUCCI</description>
+    <url/>
+    <license>C:/work2/Vespucci_Package_Directory/SLA0095_LICENSE.txt::Vespucci_Package_Directory/SLA0095_LICENSE.txt</license>
+    <releases>
+        <release date="2024-02-05" version="0.0.92">Modifications to the sw pack - add model filename and enable property</release>
+        <release date="2023-09-27" version="0.0.91">Modifications to the sw pack - corrections Vespucci folder</release>
+        <release date="2023-09-26" version="0.0.90">Modifications to the sw pack - corrections</release>
+        <release date="2023-09-25" version="0.0.89">Last modifications on sw pack</release>
+        <release date="2023-09-22" version="0.0.88">Last Modifications at PnPL and folder structure</release>
+        <release date="2022-09-22" version="0.0.81">trial</release>
+        <release date="2023-09-22" version="0.0.80">New pack with PnPL changes</release>
+        <release date="2023-09-22" version="0.0.8">New pack with modiications to PnPL structure</release>
+        <release date="2023-09-22" version="0.0.71">new</release>
+        <release date="2023-09-21" version="0.0.70">NEWPACK_trial</release>
+        <release date="2023-09-21" version="0.0.60">trial_corrected</release>
+        <release date="2023-09-21" version="0.0.50">TRIAL 1</release>
+        <release date="2023-09-21" version="0.0.361">31v modified trial</release>
+        <release date="2023-09-20" version="0.0.40">NEW PACK</release>
+        <release date="2023-07-21" version="0.0.36">Modification of the ftl files, corner cases</release>
+        <release date="2023-06-23" version="0.0.35">Modification to app_vespucci.c code</release>
+        <release date="2023-06-19" version="0.0.34">PnPL Init function modifed &amp; sensor initialization for MCU use-case</release>
+        <release date="2023-06-14" version="0.0.33">Templates modified to avoid ISPU usecase for stwin</release>
+        <release date="2023-06-08" version="0.0.32">Just app_vespucci.h modified to avoid a warning </release>
+        <release date="2023-05-29" version="0.0.31">Support for ISPU inserted
+ISPU integration files deleted</release>
+        <release date="2023-05-25" version="0.0.30">Support for ISPU inserted</release>
+        <release date="2023-05-11" version="0.0.29">All template files changed to support the new sensor LSM6DSV16X.
+Change of template files in order to use BoardName.</release>
+        <release date="2023-05-11" version="0.0.28">App_model.c modified
+Trial to see the code generated</release>
+        <release date="2023-04-27" version="0.0.27">Pack with;
+- App_model.c modified
+- app_vespucci.h/c modified
+- mlc_conf.h introduced</release>
+        <release date="2023-04-12" version="0.0.26">Modified:
+- usbd_cdc_if.c
+- App_model.c</release>
+        <release date="2023-04-07" version="0.0.25">Modified:
+- app_vespucci.h and .c 
+- usbd_cdc_if.c
+- App_model.c</release>
+        <release date="2023-03-27" version="0.0.24">Modified:
+- PnPL Library updated </release>
+        <release date="2023-03-23" version="0.0.23">Same pack as v.0.0.11 but:
+- app.c and usbd_cdc_if.c</release>
+        <release date="2023-03-22" version="0.0.22">Same pack as v.0.0.11 but:
+- app.c and app.h modified</release>
+        <release date="2023-03-20" version="0.0.21">Same pack as v.0.0.11 but:
+- app.c and app.h modified</release>
+        <release date="2023-03-13" version="0.0.20">Same pack as v.0.0.11 but:
+- app_vespucci.c modified
+- ai_app_library modified (ai_init function not "aiInit")
+- modified DSP folder path
+- USB folder path corrected and template files added (usb_cdc_if.c modified, conditionM33 removed
+  and relocation of USB_Device template files under the USB_Device_Library/Class mode and modification
+  of the template files)</release>
+        <release date="2023-03-13" version="0.0.19">Same pack as v.0.0.11 but:
+- app_vespucci.c modified
+- ai_app_library modified (ai_init function not "aiInit")
+- modified DSP folder path
+- USB folder path corrected and template files added (usb_cdc_if.c modified, conditionM33 removed
+  and relocation of USB_Device template files under the USB_Device_Library/Class mode)</release>
+        <release date="2023-03-13" version="0.0.18">Same pack as v.0.0.11 but:
+- app_vespucci.c modified
+- ai_app_library modified (ai_init function not "aiInit")
+- modified DSP folder path
+- USB folder path corrected and template files added (usb_cdc_if.c modified and conditionM33 removed)
+</release>
+        <release date="2023-03-02" version="0.0.17">Same pack as v.0.0.11 but:
+- app_vespucci.c modified
+- ai_app_library modified (ai_init function not "aiInit")
+- modified DSP folder path
+- USB folder path corrected and template files added</release>
+        <release date="2023-03-02" version="0.0.16">Same pack as v.0.0.11 but:
+- app_vespucci.c modified
+- ai_app_library modified (ai_init function not "aiInit")
+- modified DSP folder path
+- USB folder path corrected</release>
+        <release date="2023-03-02" version="0.0.15">Same pack as v.0.0.11 but:
+- app_vespucci.c modified
+- ai_app_library modified (ai_init function not "aiInit")
+- modified DSP folder path</release>
+        <release date="2023-03-01" version="0.0.14">Same pack as v.0.0.11 but:
+- app_vespucci.c modified
+- ai_app_library modified (ai_init function not "aiInit")</release>
+        <release date="2023-03-01" version="0.0.13">Same pack as v.0.0.11 but:
+- app_vespucci.c modified</release>
+        <release date="2023-03-01" version="0.0.12">- Cube.MX Version 6.7.0
+- DSP folder placed under the correct path</release>
+        <release date="2023-02-28" version="0.0.11">Cube.MX Version 6.7.0</release>
+        <release date="2023-02-23" version="0.0.10">Cube.MX v6.7.0</release>
+        <release date="2023-02-21" version="0.0.9">Cube.MX v6.7.0</release>
+        <release date="2023-02-21" version="0.0.7">Cube.MX v6.7.0</release>
+    </releases>
+    <keywords>
+        <keyword>IMPLEMENTED_WITH_STM32CUBEMX</keyword>
+        <keyword>CUBE_RULES_COMPLIANT</keyword>
+    </keywords>
+    <taxonomy>
+        <description Cclass="Data Exchange">Data Exchange</description>
+        <description Cclass="Board Part">Board Part</description>
+        <description Cclass="App Library">App Library</description>
+        <description Cclass="Application Library">Application Library</description>
+        <description Cclass="USB_Device_Library">USB_Device_Library</description>
+        <description Cclass="Device">Device</description>
+    </taxonomy>
+    <requirements>
+        <packages>
+            <package name="X-CUBE-MEMS1" vendor="STMicroelectronics" version="9.6.0"/>
+            <package name="X-CUBE-AI" vendor="STMicroelectronics" version="7.1.0"/>
+        </packages>
+    </requirements>
+    <conditions>
+        <condition id="Cortex-M33">
+            <description>Supported limited to STM32 products using Cortex-M33 </description>
+            <require Dcore="Cortex-M33"/>
+        </condition>
+        <condition id="Cortex-M Device">
+            <description>Supported limited to STM32 products using Cortex-M33 and Cortex-M4 cores and Cortex-M0+ cores</description>
+            <accept Dcore="Cortex-M33"/>
+            <accept Dcore="Cortex-M0+"/>
+            <accept Dcore="Cortex-M4"/>
+        </condition>
+        <condition id="App_condition">
+            <description>Libraries available only in case of application</description>
+            <require Cbundle="Application"/>
+        </condition>
+        <condition id="ism330dhcx_cond">
+            <require Cclass="Board Part" Cgroup="AccGyr" Csub="ISM330DHCX"/>
+        </condition>
+        <condition id="lsm6dso32x_cond">
+            <require Cclass="Board Part" Cgroup="AccGyr" Csub="LSM6DSO32X"/>
+        </condition>
+        <condition id="lsm6dsv16x_cond">
+            <require Cclass="Board Part" Cgroup="AccGyrQvar" Csub="LSM6DSV16X"/>
+        </condition>
+        <condition id="ism330is_cond">
+            <require Cclass="Board Part" Cgroup="ISPU_AccGyr" Csub="ISM330IS"/>
+        </condition>
+    </conditions>
+    <components>
+        <component Cclass="Application Library" Cgroup="PnPL" Cversion="0.0.9" condition="App_condition" maxInstances="1">
+            <description>PnPL</description>
+            <files>
+                <file category="header" name="C:/work2/APP/PnPL/PnPLCompManager/Inc/IPnPLComponent.h::Middlewares/ST/PnPLCompManager/Inc/IPnPLComponent.h"/>
+                <file category="header" name="C:/work2/APP/PnPL/PnPLCompManager/Inc/IPnPLComponent_vtbl.h::Middlewares/ST/PnPLCompManager/Inc/IPnPLComponent_vtbl.h"/>
+                <file category="header" name="C:/work2/APP/PnPL/PnPLCompManager/Inc/PnPLCompManager.h::Middlewares/ST/PnPLCompManager/Inc/PnPLCompManager.h"/>
+                <file category="header" name="C:/work2/APP/PnPL/PnPLCompManager/Inc/PnPLDef.h::Middlewares/ST/PnPLCompManager/Inc/PnPLDef.h"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/LICENSE.md::Middlewares/ST/PnPLCompManager/LICENSE.md"/>
+                <file category="doc" name="C:/work2/APP/PnPL/PnPLCompManager/LICENSE.txt::Middlewares/ST/PnPLCompManager/LICENSE.txt"/>
+                <file category="doc" name="C:/work2/APP/PnPL/PnPLCompManager/Release_Notes.html::Middlewares/ST/PnPLCompManager/Release_Notes.html"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/Release_Notes.md::Middlewares/ST/PnPLCompManager/Release_Notes.md"/>
+                <file category="source" name="C:/work2/APP/PnPL/PnPLCompManager/Src/IPnPLComponent.c::Middlewares/ST/PnPLCompManager/Src/IPnPLComponent.c"/>
+                <file category="source" name="C:/work2/APP/PnPL/PnPLCompManager/Src/PnPLCompManager.c::Middlewares/ST/PnPLCompManager/Src/PnPLCompManager.c"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/_htmresc/Add button.svg::Middlewares/ST/PnPLCompManager/_htmresc/Add button.svg"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/_htmresc/favicon.png::Middlewares/ST/PnPLCompManager/_htmresc/favicon.png"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/_htmresc/mini-st.css::Middlewares/ST/PnPLCompManager/_htmresc/mini-st.css"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/_htmresc/mini-st_2020.css::Middlewares/ST/PnPLCompManager/_htmresc/mini-st_2020.css"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/_htmresc/st_logo.png::Middlewares/ST/PnPLCompManager/_htmresc/st_logo.png"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/_htmresc/st_logo_2020.png::Middlewares/ST/PnPLCompManager/_htmresc/st_logo_2020.png"/>
+                <file category="other" name="C:/work2/APP/PnPL/PnPLCompManager/_htmresc/Update.svg::Middlewares/ST/PnPLCompManager/_htmresc/Update.svg"/>
+            </files>
+        </component>
+        <component Cclass="USB_Device_Library" Cgroup="Class" Csub="CDC" Cversion="0.0.1" maxInstances="1">
+            <description>USB_Device_Library in correct folder</description>
+            <files>
+                <file category="header" name="C:/work2/APP/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h::Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h"/>
+                <file category="source" name="C:/work2/APP/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c::Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c"/>
+            </files>
+        </component>
+        <component Cclass="USB_Device_Library" Cgroup="Core" Cversion="0.0.1" maxInstances="1">
+            <description>USB_Device_Library in correct folder</description>
+            <files>
+                <file category="header" name="C:/work2/APP/STM32_USB_Device_Library/Core/Inc/usbd_core.h::Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"/>
+                <file category="header" name="C:/work2/APP/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h::Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"/>
+                <file category="header" name="C:/work2/APP/STM32_USB_Device_Library/Core/Inc/usbd_def.h::Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"/>
+                <file category="header" name="C:/work2/APP/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h::Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h"/>
+                <file category="source" name="C:/work2/APP/STM32_USB_Device_Library/Core/Src/usbd_core.c::Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c"/>
+                <file category="source" name="C:/work2/APP/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c::Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"/>
+                <file category="source" name="C:/work2/APP/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c::Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"/>
+            </files>
+        </component>
+        <component Cclass="Application Library" Cgroup="Pre Processing" Cversion="0.0.9" condition="App_condition" maxInstances="1">
+            <description>pre_processing</description>
+            <files>
+                <file category="header" name="C:/work2/APP/pre_processing/Inc/pre_processing_core.h::Middlewares/ST/pre_processing/Inc/pre_processing_core.h"/>
+                <file category="header" name="C:/work2/APP/pre_processing/Inc/sys_functions.h::Middlewares/ST/pre_processing/Inc/sys_functions.h"/>
+                <file category="source" name="C:/work2/APP/pre_processing/Src/pre_processing_core.c::Middlewares/ST/pre_processing/Src/pre_processing_core.c"/>
+                <file category="source" name="C:/work2/APP/pre_processing/Src/sys_functions.c::Middlewares/ST/pre_processing/Src/sys_functions.c"/>
+            </files>
+        </component>
+        <component Cclass="App Library" Cgroup="DSP" Cversion="0.0.1" maxInstances="1">
+            <description>App Library</description>
+            <files>
+                <file category="header" name="C:/work2/APP/DSP/Include/arm_common_tables.h::Middlewares/ST/DSP/Include/arm_common_tables.h"/>
+                <file category="header" name="C:/work2/APP/DSP/Include/arm_const_structs.h::Middlewares/ST/DSP/Include/arm_const_structs.h"/>
+                <file category="header" name="C:/work2/APP/DSP/Include/arm_math.h::Middlewares/ST/DSP/Include/arm_math.h"/>
+                <file category="library" name="C:/work2/APP/DSP/Lib/GCC/libarm_ARMv8MMLlfsp_math.a::Middlewares/ST/DSP/Lib/GCC/libarm_ARMv8MMLlfsp_math.a"/>
+                <file category="library" name="C:/work2/APP/DSP/Lib/GCC/libarm_cortexM0l_math.a::Middlewares/ST/DSP/Lib/GCC/libarm_cortexM0l_math.a"/>
+                <file category="library" name="C:/work2/APP/DSP/Lib/GCC/libarm_cortexM4lf_math.a::Middlewares/ST/DSP/Lib/GCC/libarm_cortexM4lf_math.a"/>
+            </files>
+        </component>
+        <component Cclass="Data Exchange" Cgroup="parson" Cvendor="Parson" Cversion="0.0.1" maxInstances="1">
+            <description>parson</description>
+            <files>
+                <file category="other" name="C:/work2/APP/PnPL/Third_Party/parson/LICENSE.md::Middlewares/Third_Party/parson/LICENSE.md"/>
+                <file category="doc" name="C:/work2/APP/PnPL/Third_Party/parson/LICENSE.txt::Middlewares/Third_Party/parson/LICENSE.txt"/>
+                <file category="source" name="C:/work2/APP/PnPL/Third_Party/parson/parson.c::Middlewares/Third_Party/parson/parson.c"/>
+                <file category="header" name="C:/work2/APP/PnPL/Third_Party/parson/parson.h::Middlewares/Third_Party/parson/parson.h"/>
+                <file category="doc" name="C:/work2/APP/PnPL/Third_Party/parson/Release_Notes.html::Middlewares/Third_Party/parson/Release_Notes.html"/>
+            </files>
+        </component>
+        <bundle Cbundle="Application" Cclass="Device" Cversion="0.0.7">
+            <description>Version 0.0.7</description>
+            <doc>C:/work2/Vespucci_Package_Directory/Doc.txt::Vespucci_Package_Directory/Doc.txt</doc>
+            <component Cgroup="Application" Cvariant="Vespucci" condition="Cortex-M Device" maxInstances="1">
+                <description>Vespucci Application</description>
+                <files/>
+            </component>
+        </bundle>
+        <bundle Cbundle="Sensor" Cclass="Board Part" Cversion="0.0.1">
+            <description> </description>
+            <doc>C:/Users/driuttia/OneDrive - STMicroelectronics/Desktop/HELP.txt::HELP.txt</doc>
+            <component Cgroup="AccGyro" Csub="ism330dhcx" condition="ism330dhcx_cond" maxInstances="1">
+                <description> </description>
+                <files/>
+            </component>
+            <component Cgroup="AccGyro" Csub="ism330is" condition="ism330is_cond" maxInstances="1">
+                <description> </description>
+                <files/>
+            </component>
+            <component Cgroup="AccGyro" Csub="lsm6dso32x" condition="lsm6dso32x_cond" maxInstances="1">
+                <description> </description>
+                <files/>
+            </component>
+            <component Cgroup="AccGyro" Csub="lsm6dsv16x" condition="lsm6dsv16x_cond" maxInstances="1">
+                <description> </description>
+                <files/>
+            </component>
+        </bundle>
+    </components>
+</package>

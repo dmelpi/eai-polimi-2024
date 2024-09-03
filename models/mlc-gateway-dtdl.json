@@ -1,0 +1,85 @@
+{
+    "@id": "dtmi:staiotcraft:gateway:mlc_gateway;4",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@id": "dtmi:staiotcraft:gateway:mlc_gateway:edgeSerial;1",
+            "@type": [
+                "Relationship",
+                "EdgeModule"
+            ],
+            "maxMultiplicity": 1,
+            "name": "edgeSerial",
+            "target": [
+                "dtmi:staiotcraft:gateway:service:edgeSerial;1"
+            ]
+        },
+        {
+            "@id": "dtmi:staiotcraft:gateway:mlc_gateway:edgeHighSpeedDatalog;1",
+            "@type": [
+                "Relationship",
+                "EdgeModule"
+            ],
+            "maxMultiplicity": 1,
+            "name": "edgeHighSpeedDatalog",
+            "target": [
+                "dtmi:staiotcraft:gateway:service:edgeHighSpeedDatalog;1"
+            ]
+        },
+        {
+            "@id": "dtmi:staiotcraft:gateway:mlc_gateway:edgeIdentityTranslation;1",
+            "@type": [
+                "Relationship",
+                "EdgeModule"
+            ],
+            "maxMultiplicity": 1,
+            "name": "edgeIdentityTranslation",
+            "target": [
+                "dtmi:staiotcraft:gateway:service:edgeIdentityTranslation;1"
+            ]
+        },
+        {
+            "@id": "dtmi:staiotcraft:gateway:mlc_gateway:edgeSTAIoTCraft;1",
+            "@type": [
+                "Relationship",
+                "EdgeModule"
+            ],
+            "maxMultiplicity": 1,
+            "name": "edgeSTAIoTCraft",
+            "target": [
+                "dtmi:staiotcraft:gateway:service:edgeSTAIoTCraft;1"
+            ]
+        },
+        {
+            "@id": "dtmi:staiotcraft:gateway:mlc_gateway:edgeMLC;1",
+            "@type": [
+                "Relationship",
+                "EdgeModule"
+            ],
+            "maxMultiplicity": 1,
+            "name": "edgeMLC",
+            "target": [
+                "dtmi:staiotcraft:gateway:application:edgeMLC;1"
+            ]
+        },
+        {
+            "@id": "dtmi:staiotcraft:gateway:mlc_gateway:mlc_gateway_relationship;16",
+            "@type": [
+                "Relationship",
+                "GatewayDevice"
+            ],
+            "displayName": {
+                "en": "MLC Gateway Relationship"
+            },
+            "name": "mlc_gateway_relationship",
+            "target": []
+        }
+    ],
+    "displayName": {
+        "en": "MLC_Gateway"
+    },
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}

@@ -1,0 +1,6 @@
+helpdesk.st.com
+My Activity (in alto)
+Clicchi l-incident
+Add comment (in basso)
+
+Se non le risp, faccia di nuovo richiesta con Request Again (a destra), alzando la priorita' ulteriormente

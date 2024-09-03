@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<IP xmlns="http://mcd.rou.st.com/modules.php?name=mcu" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance" CodeTemplate="app_X-CUBE-VESPUCCI_h.ftl;app_X-CUBE-VESPUCCI_c.ftl" DBVersion="V4.0" Name="X-CUBE-VESPUCCI" RootFolder="Packs/STMicroelectronics/X-CUBE-VESPUCCI/0.0.92/" Version="0.0.92" ns0:schemaLocation="http://mcd.rou.st.com/modules.php?name=mcu ../../../../../../../doc/V4/Development/Specifications/db/thirdPartyDb.xsd">
+    <RefConfig Name="ApplicationOoLibraryJjPnPL">
+        <Component Name="ApplicationOoLibrary:PnPL:$ApplicationOoLibraryJjPnPL"/>
+        <ConfigFile Name="PNPLCOMPMANAGER_CONF_H"/>
+        <ConfigFile Name="CONTROLLER_PNPL_VTBL_H"/>
+        <ConfigFile Name="LSM6DSO32X_ACC_PNPL_H"/>
+        <ConfigFile Name="ISM330DHCX_APP_PNPL_H"/>
+        <ConfigFile Name="LSM6DSV16X_ACC_PNPL_H"/>
+        <ConfigFile Name="LSM6DSO32X_ACC_PNPL_VTBL_H"/>
+        <ConfigFile Name="ISM330DHCX_ACC_PNPL_VTBL_H"/>
+        <ConfigFile Name="LSM6DSV16X_ACC_PNPL_VTBL_H"/>
+        <ConfigFile Name="LSM6DSO32X_ACC_PNPL_C"/>
+        <ConfigFile Name="ISM330DHCX_ACC_PNPL_C"/>
+        <ConfigFile Name="LSM6DSV16X_ACC_PNPL_C"/>
+        <ConfigFile Name="AI_APPLICATION_MCU_PNPL_H"/>
+        <ConfigFile Name="AI_APPLICATION_MCU_PNPL_VTBL_H"/>
+        <ConfigFile Name="DEVICEINFORMATION_PNPL_C"/>
+        <ConfigFile Name="DEVICEINFORMATION_PNPL_H"/>
+        <ConfigFile Name="DEVICEINFORMATION_PNPL_VTBL_H"/>
+        <ConfigFile Name="FIRMWARE_INFO_PNPL_C"/>
+        <ConfigFile Name="FIRMWARE_INFO_PNPL_H"/>
+        <ConfigFile Name="FIRMWARE_INFO_PNPL_VTBL_H"/>
+        <ConfigFile Name="IAI_APPLICATION_MCU_C"/>
+        <ConfigFile Name="IAI_APPLICATION_MCU_H"/>
+        <ConfigFile Name="IAI_APPLICATION_MCU_VTBL_H"/>
+        <ConfigFile Name="PNPL_INIT_C"/>
+        <ConfigFile Name="PNPL_INIT_H"/>
+        <ConfigFile Name="CONTROLLER_PNPL_H"/>
+        <ConfigFile Name="ICONTROLLER_C"/>
+        <ConfigFile Name="ICONTROLLER_VTBL_H"/>
+        <ConfigFile Name="ICONTROLLER_H"/>
+        <ConfigFile Name="IAI_APPLICATION_ISPU_VTBL_H"/>
+        <ConfigFile Name="IAI_APPLICATION_ISPU_H"/>
+        <ConfigFile Name="IAI_APPLICATION_ISPU_C"/>
+        <ConfigFile Name="AI_APPLICATION_ISPU_PNPL_H"/>
+        <ConfigFile Name="AI_APPLICATION_ISPU_PNPL_VTBL_H"/>
+        <ConfigFile Name="AI_APPLICATION_ISPU_PNPL_C"/>
+        <ConfigFile Name="AI_APPLICATION_MLC_PNPL_C"/>
+        <ConfigFile Name="AI_APPLICATION_MLC_PNPL_H"/>
+        <ConfigFile Name="AI_APPLICATION_MLC_PNPL_VTBL_H"/>
+        <ConfigFile Name="IAI_APPLICATION_MLC_C"/>
+        <ConfigFile Name="IAI_APPLICATION_MLC_H"/>
+        <ConfigFile Name="IAI_APPLICATION_MLC_VTBL_H"/>
+        <ConfigFile Name="APP_MODEL_C"/>
+        <ConfigFile Name="APP_MODEL_H"/>
+        <ConfigFile Name="CONTROLLER_PNPL_C"/>
+        <ConfigFile Name="AI_APPLICATION_MCU_PNPL_C"/>
+    </RefConfig>
+    <RefConfig Name="USBIiDeviceIiLibraryJjClass">
+        <Component Name="USBIiDeviceIiLibrary:Class:CDC:$USBIiDeviceIiLibraryJjClassJjCDC"/>
+        <ConfigFile Name="USBD_CONF_H"/>
+        <ConfigFile Name="USBD_CONF_C"/>
+        <ConfigFile Name="USB_DEVICE_H"/>
+        <ConfigFile Name="USB_DEVICE_C"/>
+        <ConfigFile Name="USBD_DESC_H"/>
+        <ConfigFile Name="USBD_CDC_IF_H"/>
+        <ConfigFile Name="USBD_DESC_C"/>
+        <ConfigFile Name="USBD_CDC_IF_C"/>
+    </RefConfig>
+    <RefConfig Name="USBIiDeviceIiLibraryJjCore">
+        <Component Name="USBIiDeviceIiLibrary:Core:$USBIiDeviceIiLibraryJjCore"/>
+    </RefConfig>
+    <RefConfig Name="ApplicationOoLibraryJjPreOoProcessing">
+        <Component Name="ApplicationOoLibrary:PreOoProcessing:$ApplicationOoLibraryJjPreOoProcessing"/>
+        <ConfigFile Name="AIAPP_C"/>
+        <ConfigFile Name="AIAPP_H"/>
+        <ConfigFile Name="PARAMS_H"/>
+        <ConfigFile Name="PRE_PROCESSING_APP_C"/>
+        <ConfigFile Name="PRE_PROCESSING_APP_H"/>
+    </RefConfig>
+    <RefConfig Name="AppOoLibraryJjDSP">
+        <Component Name="AppOoLibrary:DSP:$AppOoLibraryJjDSP"/>
+    </RefConfig>
+    <RefConfig Name="DataOoExchangeJjparson">
+        <Component Name="DataOoExchange:parson:$DataOoExchangeJjparson"/>
+    </RefConfig>
+    <RefConfig Name="DeviceJjApplication">
+        <Component Name="ApplicationCcDevice:Application:Vespucci:$ApplicationCcDeviceJjApplication"/>
+        <ConfigFile Name="MEMS_INTEGRATION_H"/>
+        <ConfigFile Name="MEMS_INTEGRATION_C"/>
+    </RefConfig>
+    <RefConfig Name="BoardOoPartJjSensor">
+        <Component Name="SensorCcBoardOoPart:AccGyro:ism330dhcx:$SensorCcBoardOoPartJjAccGyroJjism330dhcx"/>
+        <Component Name="SensorCcBoardOoPart:AccGyro:ism330is:$SensorCcBoardOoPartJjAccGyroJjism330is"/>
+        <Component Name="SensorCcBoardOoPart:AccGyro:lsm6dso32x:$SensorCcBoardOoPartJjAccGyroJjlsm6dso32x"/>
+        <Component Name="SensorCcBoardOoPart:AccGyro:lsm6dsv16x:$SensorCcBoardOoPartJjAccGyroJjlsm6dsv16x"/>
+        <ConfigFile Name="LSM6DSO32X_MLC_H"/>
+        <ConfigFile Name="ISM330IS_ISPU_H"/>
+        <ConfigFile Name="ISM330DHCX_MLC_H"/>
+        <ConfigFile Name="LSM6DSV16X_MLC_H"/>
+    </RefConfig>
+    <RefConfigFile Added="true" Description="PNPLCOMPMANAGER_CONF_H" Name="PNPLCOMPMANAGER_CONF_H" Template="PnPLCompManager_Conf_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./PnPLCompManager_Conf.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="CONTROLLER_PNPL_VTBL_H" Name="CONTROLLER_PNPL_VTBL_H" Template="Controller_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Controller_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="LSM6DSO32X_ACC_PNPL_H" Name="LSM6DSO32X_ACC_PNPL_H" Template="Lsm6dso32x_Acc_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="lsm6dso32x_cond::SEMSensorCcBoardOoPartJjAccGyroJjlsm6dso32x" Name="./Lsm6dso32x_Acc_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="ISM330DHCX_APP_PNPL_H" Name="ISM330DHCX_APP_PNPL_H" Template="Ism330dhcx_Acc_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="ism330dhcx_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330dhcx" Name="./Ism330dhcx_Acc_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="LSM6DSV16X_ACC_PNPL_H" Name="LSM6DSV16X_ACC_PNPL_H" Template="Lsm6dsv16x_Acc_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="lsm6dsv16x_cond::SEMSensorCcBoardOoPartJjAccGyroJjlsm6dsv16x" Name="./Lsm6dsv16x_Acc_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="LSM6DSO32X_ACC_PNPL_VTBL_H" Name="LSM6DSO32X_ACC_PNPL_VTBL_H" Template="Lsm6dso32x_Acc_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="lsm6dso32x_cond::SEMSensorCcBoardOoPartJjAccGyroJjlsm6dso32x" Name="./Lsm6dso32x_Acc_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="ISM330DHCX_ACC_PNPL_VTBL_H" Name="ISM330DHCX_ACC_PNPL_VTBL_H" Template="Ism330dhcx_Acc_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="ism330dhcx_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330dhcx" Name="./Ism330dhcx_Acc_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="LSM6DSV16X_ACC_PNPL_VTBL_H" Name="LSM6DSV16X_ACC_PNPL_VTBL_H" Template="Lsm6dsv16x_Acc_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="lsm6dsv16x_cond::SEMSensorCcBoardOoPartJjAccGyroJjlsm6dsv16x" Name="./Lsm6dsv16x_Acc_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="LSM6DSO32X_ACC_PNPL_C" Name="LSM6DSO32X_ACC_PNPL_C" Template="Lsm6dso32x_Acc_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="lsm6dso32x_cond::SEMSensorCcBoardOoPartJjAccGyroJjlsm6dso32x" Name="./Lsm6dso32x_Acc_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="ISM330DHCX_ACC_PNPL_C" Name="ISM330DHCX_ACC_PNPL_C" Template="Ism330dhcx_Acc_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="ism330dhcx_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330dhcx" Name="./Ism330dhcx_Acc_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="LSM6DSV16X_ACC_PNPL_C" Name="LSM6DSV16X_ACC_PNPL_C" Template="Lsm6dsv16x_Acc_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="lsm6dsv16x_cond::SEMSensorCcBoardOoPartJjAccGyroJjlsm6dsv16x" Name="./Lsm6dsv16x_Acc_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_MCU_PNPL_H" Name="AI_APPLICATION_MCU_PNPL_H" Template="Ai_Application_Mcu_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Ai_Application_Mcu_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_MCU_PNPL_VTBL_H" Name="AI_APPLICATION_MCU_PNPL_VTBL_H" Template="Ai_Application_Mcu_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Ai_Application_Mcu_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="DEVICEINFORMATION_PNPL_C" Name="DEVICEINFORMATION_PNPL_C" Template="Deviceinformation_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="all" Name="./Deviceinformation_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="DEVICEINFORMATION_PNPL_H" Name="DEVICEINFORMATION_PNPL_H" Template="Deviceinformation_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Deviceinformation_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="DEVICEINFORMATION_PNPL_VTBL_H" Name="DEVICEINFORMATION_PNPL_VTBL_H" Template="Deviceinformation_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Deviceinformation_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="FIRMWARE_INFO_PNPL_C" Name="FIRMWARE_INFO_PNPL_C" Template="Firmware_Info_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="all" Name="./Firmware_Info_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="FIRMWARE_INFO_PNPL_H" Name="FIRMWARE_INFO_PNPL_H" Template="Firmware_Info_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Firmware_Info_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="FIRMWARE_INFO_PNPL_VTBL_H" Name="FIRMWARE_INFO_PNPL_VTBL_H" Template="Firmware_Info_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Firmware_Info_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_MCU_C" Name="IAI_APPLICATION_MCU_C" Template="IAi_Application_Mcu_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Src">
+        <File Category="source" Condition="all" Name="./IAi_Application_Mcu.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_MCU_H" Name="IAI_APPLICATION_MCU_H" Template="IAi_Application_Mcu_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./IAi_Application_Mcu.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_MCU_VTBL_H" Name="IAI_APPLICATION_MCU_VTBL_H" Template="IAi_Application_Mcu_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./IAi_Application_Mcu_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="PNPL_INIT_C" Name="PNPL_INIT_C" Template="PnPL_init_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Src">
+        <File Category="source" Condition="all" Name="./PnPL_init.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="PNPL_INIT_H" Name="PNPL_INIT_H" Template="PnPL_init_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./PnPL_init.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="CONTROLLER_PNPL_H" Name="CONTROLLER_PNPL_H" Template="Controller_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Controller_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="ICONTROLLER_C" Name="ICONTROLLER_C" Template="IController_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Src">
+        <File Category="source" Condition="all" Name="./IController.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="ICONTROLLER_VTBL_H" Name="ICONTROLLER_VTBL_H" Template="IController_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./IController_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="ICONTROLLER_H" Name="ICONTROLLER_H" Template="IController_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./IController.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_ISPU_VTBL_H" Name="IAI_APPLICATION_ISPU_VTBL_H" Template="IAi_Application_Ispu_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="ism330is_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330is" Name="./IAi_Application_Ispu_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_ISPU_H" Name="IAI_APPLICATION_ISPU_H" Template="IAi_Application_Ispu_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="ism330is_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330is" Name="./IAi_Application_Ispu.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_ISPU_C" Name="IAI_APPLICATION_ISPU_C" Template="IAi_Application_Ispu_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Src">
+        <File Category="source" Condition="ism330is_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330is" Name="./IAi_Application_Ispu.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_ISPU_PNPL_H" Name="AI_APPLICATION_ISPU_PNPL_H" Template="Ai_Application_Ispu_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="ism330is_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330is" Name="./Ai_Application_Ispu_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_ISPU_PNPL_VTBL_H" Name="AI_APPLICATION_ISPU_PNPL_VTBL_H" Template="Ai_Application_Ispu_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="ism330is_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330is" Name="./Ai_Application_Ispu_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_ISPU_PNPL_C&#10;" Name="AI_APPLICATION_ISPU_PNPL_C" Template="Ai_Application_Ispu_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="ism330is_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330is" Name="./Ai_Application_Ispu_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_MLC_PNPL_C" Name="AI_APPLICATION_MLC_PNPL_C" Template="Ai_Application_Mlc_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="all" Name="./Ai_Application_Mlc_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_MLC_PNPL_H" Name="AI_APPLICATION_MLC_PNPL_H" Template="Ai_Application_Mlc_PnPL_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Ai_Application_Mlc_PnPL.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_MLC_PNPL_VTBL_H" Name="AI_APPLICATION_MLC_PNPL_VTBL_H" Template="Ai_Application_Mlc_PnPL_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Inc">
+        <File Category="header" Condition="all" Name="./Ai_Application_Mlc_PnPL_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_MLC_C" Name="IAI_APPLICATION_MLC_C" Template="IAi_Application_Mlc_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Src">
+        <File Category="source" Condition="all" Name="./IAi_Application_Mlc.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_MLC_H" Name="IAI_APPLICATION_MLC_H" Template="IAi_Application_Mlc_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./IAi_Application_Mlc.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="IAI_APPLICATION_MLC_VTBL_H" Name="IAI_APPLICATION_MLC_VTBL_H" Template="IAi_Application_Mlc_vtbl_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./IAi_Application_Mlc_vtbl.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="APP_MODEL_C" Name="APP_MODEL_C" Template="App_model_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Src">
+        <File Category="source" Condition="all" Name="./App_model.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="APP_MODEL_H" Name="APP_MODEL_H" Template="App_model_h.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/Core/Inc">
+        <File Category="header" Condition="all" Name="./App_model.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="CONTROLLER_PNPL_C" Name="CONTROLLER_PNPL_C" Template="Controller_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="all" Name="./Controller_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AI_APPLICATION_MCU_PNPL_C" Name="AI_APPLICATION_MCU_PNPL_C" Template="Ai_Application_Mcu_PnPL_c.ftl" destinationFolder="X-CUBE-VESPUCCI/PnPL/PnPL/Src">
+        <File Category="source" Condition="all" Name="./Ai_Application_Mcu_PnPL.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="USBD_CONF_H" Name="USBD_CONF_H" Template="usbd_conf_h.ftl" destinationFolder="USB_Device/Target">
+        <File Category="header" Condition="all" Name="./usbd_conf.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="USBD_CONF_C" Name="USBD_CONF_C" Template="usbd_conf_c.ftl" destinationFolder="USB_Device/Target">
+        <File Category="source" Condition="all" Name="./usbd_conf.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="USB_DEVICE_H" Name="USB_DEVICE_H" Template="usb_device_h.ftl" destinationFolder="USB_Device/App">
+        <File Category="header" Condition="all" Name="./usb_device.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="USB_DEVICE_C" Name="USB_DEVICE_C" Template="usb_device_c.ftl" destinationFolder="USB_Device/App">
+        <File Category="source" Condition="all" Name="./usb_device.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="USBD_DESC_H" Name="USBD_DESC_H" Template="usbd_desc_h.ftl" destinationFolder="USB_Device/App">
+        <File Category="header" Condition="all" Name="./usbd_desc.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="USBD_CDC_IF_H" Name="USBD_CDC_IF_H" Template="usbd_cdc_if_h.ftl" destinationFolder="USB_Device/App">
+        <File Category="header" Condition="all" Name="./usbd_cdc_if.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="USBD_DESC_C" Name="USBD_DESC_C" Template="usbd_desc_c.ftl" destinationFolder="USB_Device/App">
+        <File Category="source" Condition="all" Name="./usbd_desc.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="USBD_CDC_IF_C" Name="USBD_CDC_IF_C" Template="usbd_cdc_if_c.ftl" destinationFolder="USB_Device/App">
+        <File Category="source" Condition="all" Name="./usbd_cdc_if.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AIAPP_C" Name="AIAPP_C" Template="ai_app_c.ftl" destinationFolder="X-CUBE-VESPUCCI/ai_app">
+        <File Category="source" Condition="all" Name="./ai_app.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="AIAPP_H" Name="AIAPP_H" Template="ai_app_h.ftl" destinationFolder="X-CUBE-VESPUCCI/ai_app">
+        <File Category="header" Condition="all" Name="./ai_app.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="PARAMS_H" Name="PARAMS_H" Template="params_h.ftl" destinationFolder="X-CUBE-VESPUCCI/pre_processing">
+        <File Category="header" Condition="all" Name="./params.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="PRE_PROCESSING_APP_C" Name="PRE_PROCESSING_APP_C" Template="pre_processing_app_c.ftl" destinationFolder="X-CUBE-VESPUCCI/pre_processing">
+        <File Category="source" Condition="all" Name="./pre_processing_app.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="PRE_PROCESSING_APP_H" Name="PRE_PROCESSING_APP_H" Template="pre_processing_app_h.ftl" destinationFolder="X-CUBE-VESPUCCI/pre_processing">
+        <File Category="header" Condition="all" Name="./pre_processing_app.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="MEMS_INTEGRATION_H" Name="MEMS_INTEGRATION_H" Template="MEMS_integration_h.ftl" destinationFolder="X-CUBE-MEMS1/Target">
+        <File Category="header" Condition="all" Name="./MEMS_integration.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="MEMS_INTEGRATION_C" Name="MEMS_INTEGRATION_C" Template="MEMS_integration_c.ftl" destinationFolder="X-CUBE-MEMS1/Target">
+        <File Category="source" Condition="all" Name="./MEMS_integration.c"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="LSM6DSO32X_MLC_H" Name="LSM6DSO32X_MLC_H" Template="lsm6dso32x_mlc_h.ftl" destinationFolder="X-CUBE-VESPUCCI/smart_sensors">
+        <File Category="header" Condition="lsm6dso32x_cond::SEMSensorCcBoardOoPartJjAccGyroJjlsm6dso32x" Name="./lsm6dso32x_mlc.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="ISM330IS_ISPU_H" Name="ISM330IS_ISPU_H" Template="ism330is_ispu_h.ftl" destinationFolder="X-CUBE-VESPUCCI/smart_sensors">
+        <File Category="header" Condition="ism330is_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330is" Name="./ism330is_ispu.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="ISM330DHCX_MLC_H" Name="ISM330DHCX_MLC_H" Template="ism330dhcx_mlc_h.ftl" destinationFolder="X-CUBE-VESPUCCI/smart_sensors">
+        <File Category="header" Condition="ism330dhcx_cond::SEMSensorCcBoardOoPartJjAccGyroJjism330dhcx" Name="./ism330dhcx_mlc.h"/>
+    </RefConfigFile>
+    <RefConfigFile Added="true" Description="LSM6DSV16X_MLC_H" Name="LSM6DSV16X_MLC_H" Template="lsm6dsv16x_mlc_h.ftl" destinationFolder="X-CUBE-VESPUCCI/smart_sensors">
+        <File Category="header" Condition="lsm6dsv16x_cond::SEMSensorCcBoardOoPartJjAccGyroJjlsm6dsv16x" Name="./lsm6dsv16x_mlc.h"/>
+    </RefConfigFile>
+    <RefComponent Cclass="ApplicationOoLibrary" Cgroup="PnPL" Cversion="0Gg0Gg9">
+        <File Category="header" Condition="" Name="Middlewares/ST/PnPLCompManager/Inc/IPnPLComponent.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/PnPLCompManager/Inc/IPnPLComponent_vtbl.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/PnPLCompManager/Inc/PnPLCompManager.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/PnPLCompManager/Inc/PnPLDef.h"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/LICENSE.md"/>
+        <File Category="doc" Condition="" Name="Middlewares/ST/PnPLCompManager/LICENSE.txt"/>
+        <File Category="doc" Condition="" Name="Middlewares/ST/PnPLCompManager/Release_Notes.html"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/Release_Notes.md"/>
+        <File Category="source" Condition="" Name="Middlewares/ST/PnPLCompManager/Src/IPnPLComponent.c"/>
+        <File Category="source" Condition="" Name="Middlewares/ST/PnPLCompManager/Src/PnPLCompManager.c"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/_htmresc/Add button.svg"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/_htmresc/favicon.png"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/_htmresc/mini-st.css"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/_htmresc/mini-st_2020.css"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/_htmresc/st_logo.png"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/_htmresc/st_logo_2020.png"/>
+        <File Category="other" Condition="" Name="Middlewares/ST/PnPLCompManager/_htmresc/Update.svg"/>
+    </RefComponent>
+    <RefComponent Cclass="USBIiDeviceIiLibrary" Cgroup="Class" Cversion="0Gg0Gg1">
+        <SubComponent Csub="CDC" Cvariant="true" Cversion="0Gg0Gg1">
+            <File Category="header" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h"/>
+            <File Category="source" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c"/>
+        </SubComponent>
+    </RefComponent>
+    <RefComponent Cclass="USBIiDeviceIiLibrary" Cgroup="Core" Cversion="0Gg0Gg1">
+        <File Category="header" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h"/>
+        <File Category="source" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c"/>
+        <File Category="source" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"/>
+        <File Category="source" Condition="" Name="Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"/>
+    </RefComponent>
+    <RefComponent Cclass="ApplicationOoLibrary" Cgroup="PreOoProcessing" Cversion="0Gg0Gg9">
+        <File Category="header" Condition="" Name="Middlewares/ST/pre_processing/Inc/pre_processing_core.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/pre_processing/Inc/sys_functions.h"/>
+        <File Category="source" Condition="" Name="Middlewares/ST/pre_processing/Src/pre_processing_core.c"/>
+        <File Category="source" Condition="" Name="Middlewares/ST/pre_processing/Src/sys_functions.c"/>
+    </RefComponent>
+    <RefComponent Cclass="AppOoLibrary" Cgroup="DSP" Cversion="0Gg0Gg1">
+        <File Category="header" Condition="" Name="Middlewares/ST/DSP/Include/arm_common_tables.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/DSP/Include/arm_const_structs.h"/>
+        <File Category="header" Condition="" Name="Middlewares/ST/DSP/Include/arm_math.h"/>
+        <File Category="library" Condition="" Name="Middlewares/ST/DSP/Lib/GCC/libarm_ARMv8MMLlfsp_math.a"/>
+        <File Category="library" Condition="" Name="Middlewares/ST/DSP/Lib/GCC/libarm_cortexM0l_math.a"/>
+        <File Category="library" Condition="" Name="Middlewares/ST/DSP/Lib/GCC/libarm_cortexM4lf_math.a"/>
+    </RefComponent>
+    <RefComponent Cclass="DataOoExchange" Cgroup="parson" Cversion="0Gg0Gg1">
+        <File Category="other" Condition="" Name="Middlewares/Third_Party/parson/LICENSE.md"/>
+        <File Category="doc" Condition="" Name="Middlewares/Third_Party/parson/LICENSE.txt"/>
+        <File Category="source" Condition="" Name="Middlewares/Third_Party/parson/parson.c"/>
+        <File Category="header" Condition="" Name="Middlewares/Third_Party/parson/parson.h"/>
+        <File Category="doc" Condition="" Name="Middlewares/Third_Party/parson/Release_Notes.html"/>
+    </RefComponent>
+    <RefComponent Cclass="ApplicationCcDevice" Cgroup="Application" Cversion="0Gg0Gg7">
+        <SubComponent Csub="" Cvariant="Vespucci:Vespucci" ModuleName="X-CUBE-VESPUCCI"/>
+    </RefComponent>
+    <RefComponent Cclass="SensorCcBoardOoPart" Cgroup="AccGyro" Cversion="0Gg0Gg1">
+        <SubComponent Csub="ism330dhcx" Cvariant="true" Cversion="0Gg0Gg1"/>
+        <SubComponent Csub="ism330is" Cvariant="true" Cversion="0Gg0Gg1"/>
+        <SubComponent Csub="lsm6dso32x" Cvariant="true" Cversion="0Gg0Gg1"/>
+        <SubComponent Csub="lsm6dsv16x" Cvariant="true" Cversion="0Gg0Gg1"/>
+    </RefComponent>
+</IP>
